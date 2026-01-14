@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=1280, initial-scale=1.0" />
+  <title>Codename Dashboard</title>
+
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Icons -->
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="app">
+
+  <!-- SIDEBAR -->
+  <aside class="sidebar">
+
+    <div class="brand">
+      <div class="brand-icon">C</div>
+      <span>Codename</span>
+    </div>
+
+    <nav class="sidebar-menu">
+
+      <div class="menu-group">
+        <div class="menu-item"><i class="bx bx-star"></i> Starred</div>
+        <div class="menu-item"><i class="bx bx-time-five"></i> Recent</div>
+        <div class="menu-item"><i class="bx bx-list-ul"></i> Sales list</div>
+        <div class="menu-item"><i class="bx bx-target-lock"></i> Goals</div>
+        <div class="menu-item active"><i class="bx bx-grid-alt"></i> Dashboard</div>
+      </div>
+
+      <div class="menu-group">
+        <div class="menu-title">Codename</div>
+        <div class="menu-sub">Shared with me</div>
+        <div class="menu-sub">Cargo2go</div>
+        <div class="menu-sub">Cloud3r</div>
+        <div class="menu-sub">Idioma</div>
+        <div class="menu-sub">Syllables</div>
+        <div class="menu-sub">x-0b</div>
+      </div>
+
+      <div class="menu-group">
+        <div class="menu-title">Reports</div>
+        <div class="menu-sub">Shared with me</div>
+        <div class="menu-sub">My reports</div>
+      </div>
+
+    </nav>
+
+    <div class="sidebar-bottom">
+      <i class="bx bx-message-rounded"></i>
+      <i class="bx bx-cog"></i>
+    </div>
+
+  </aside>
+
+
+  <main class="main">
+
+    <header class="topbar">
+      <div class="search-box">
+        <i class="bx bx-search"></i>
+        <input placeholder="Try searching 'insights'" />
+      </div>
+
+      <div class="top-actions">
+        <i class="bx bx-slider"></i>
+        <i class="bx bx-download"></i>
+        <i class="bx bx-upload"></i>
+        <div class="avatar pink">A</div>
+      </div>
+    </header>
+
+
+    <section class="dashboard">
+
+      <div class="avatar-strip">
+        <button class="add-user">+</button>
+
+        <div class="user-chip">
+          <img src="Screenshot 2026-01-14 173323.png" />
+          <span>luffy monkey D.</span>
+        </div>
+
+        <div class="user-chip">
+          <img src="Screenshot 2026-01-14 173217.png" />
+          <span>zoro.</span>
+        </div>
+
+        <div class="user-chip">
+          <img src="Screenshot 2026-01-14 173416.png" />
+          <span>sanji.</span>
+        </div>
+
+        <div class="circle-logo">C</div>
+      </div>
+
+      <!-- HEADER -->
+      <div class="dashboard-header">
+        <h1>Revenue</h1>
+        <div class="revenue">
+          $582,978.82
+          <span class="pill red">-7.9%</span>
+          <span class="pill pink">$29,335.09</span>
+        </div>
+        <p class="subtext">vs prev. Jun 1 – Aug 31, 2023</p>
+      </div>
+
+      <!-- GRID -->
+      <div class="dashboard-grid">
+
+        <div class="left-column">
+          <div class="small-row">
+            <div class="card small"> grid number 1</div>
+            <div class="card small"> grid number 2</div>
+          </div>
+          <div class="card medium">seperate grid</div>
+        </div>
+
+        <div class="card large">client grid</div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
